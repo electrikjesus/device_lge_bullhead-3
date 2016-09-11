@@ -21,10 +21,10 @@
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/broken/config/common_full_phone.mk)
-$(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := broken_bullhead
+PRODUCT_NAME := bliss_bullhead
 PRODUCT_DEVICE := bullhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
